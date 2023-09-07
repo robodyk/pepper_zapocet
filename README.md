@@ -1,21 +1,39 @@
-#TODO: Clean this mess up
+# TODO: Clean this mess up
 
-inference server: services/inference_services/inference_server.py
-(should run this from external script)
+## Structure
 
-model_inference: inference abstraction for used models + models configs
+- **Inference Server**: 
+  - Path: `services/inference_services/inference_server.py`
+  - *Note*: Should run this from an external script.
 
-in python_2
-install pepper-controller
-install zmq, cloudpickle
-pepper_people: contains the rpc classes and abstraction wrappers
+- **Model Inference**: 
+  - Description: Inference abstraction for used models and their configurations.
 
-The demo scripts: Pepper-Controller/detDemo.py,faceDemo.py
+## Python 2 Dependencies
 
+- Install `pepper-controller`
+- Install `zmq`
+- Install `cloudpickle`
 
-To install:
-install mmdet
-install alphapose
-install deepface
-install whisper
-additional deps: cloudpickle, easydict
+**pepper_people**:
+- Contains the RPC classes and abstraction wrappers.
+
+## Demo Scripts
+
+- Located in `Pepper-Controller`:
+  - `detDemo.py`
+  - `faceDemo.py`
+
+## Installation
+
+### The model Libraries (Python3):
+
+- Install `mmdet`
+- Install `alphapose`
+- Install `deepface`
+- Install `whisper`
+
+### Additional Python 3 Dependencies:
+
+- `cloudpickle`
+- `easydict`
