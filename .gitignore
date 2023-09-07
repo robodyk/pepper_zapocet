@@ -1,0 +1,6 @@
+python_2/Pepper-Controller/pepper/tmp_files/*
+model_inference/detector/rtmdet/rtmdet-ins_s_8xb32-300e_coco_20221121_212604-fdc5d7ec.pth
+model_inference/detector/rtmdet/rtmdet-ins_tiny_8xb32-300e_coco_20221130_151727-ec670f7e.pth
+model_inference/detector/rtmdet/rtmdet-ins_x_8xb16-300e_coco_20221124_111313-33d4595b.pth
+model_inference/pose/alphapose/alphapose_out/*
+model_inference/detector/rtmdet/rtmdet_out/*
